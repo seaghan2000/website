@@ -4,8 +4,7 @@
   "description": "Resume Website",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,11 @@
   },
   "homepage": "https://github.com/seaghan2000/website#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
     "touch": "^3.1.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
