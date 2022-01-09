@@ -9,12 +9,11 @@ app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/css', express.static(__dirname + 'public/img'))
 app.use('/css', express.static(__dirname + 'public/js'))
 
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+app.use(express.static(path.join(__dirname, 'public')))
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'ejs')
+app.get('/', (req, res) => res.render('pages/index'))
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 
 
