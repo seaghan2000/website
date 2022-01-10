@@ -1,13 +1,17 @@
 .header {
     padding: 75px; /* some padding */
     text-align: center; /* center the text */
-    background: #01639c; /* green background */
+    background: #01395a; /* background */
     color: rgb(255, 255, 255); /* white text color */
+    margin:0px;
   }
   
   /* Increase the font size of the <h1> element */
   .header h1 {
     font-size: 40px;
+    top: 50%;
+    text-align: center;
+    vertical-align: middle;
   }
 
   .navbar {
@@ -35,7 +39,7 @@
   
   /* Change color on hover/mouse-over */
   .navbar a:hover {
-    background-color:#01639c; /* Grey background color */
+    background-color:#01395a; /* Grey background color */
     color: black; /* Black text color */
   }
 
@@ -54,15 +58,18 @@
   /* Sidebar/left column */
   .side {
     flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
+    background-color: white; /* Grey background color */
     padding: 20px; /* Some padding */
+    border: 5px solid #01395a;
   }
   
   /* Main column */
   .main {
     flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
+    background-color: #dfdfdf; /* background color */
     padding: 20px; /* Some padding */
+    border: 5px solid #01395a;
+    border-left-style: hidden;
   }
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -81,20 +88,12 @@
   }
 
   .footer {
-    padding: 20px; /* Some padding */
+    padding: 10px; /* Some padding */
     text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
+    background: #01395a; /*background */
+    color: rgb(255, 255, 255);
   }
 
-  .Center {
-    width:200px;
-    height:200px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
-}
 
   body {
     font-family: bahnschrift;
