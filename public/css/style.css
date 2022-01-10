@@ -1,8 +1,8 @@
 .header {
     padding: 75px; /* some padding */
     text-align: center; /* center the text */
-    background: #0181ca; /* green background */
-    color: white; /* white text color */
+    background: #01639c; /* green background */
+    color: rgb(255, 255, 255); /* white text color */
   }
   
   /* Increase the font size of the <h1> element */
@@ -12,14 +12,16 @@
 
   .navbar {
     overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
+    background-color: rgb(24, 23, 23); /* Dark background color */
   }
   
   /* Style the navigation bar links */
   .navbar a {
     float: left; /* Make sure that the links stay side-by-side */
+    top: 50%;
+    left: 50%;
     display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: white; /* White text color */
+    color: rgb(255, 255, 255); /* White text color */
     text-align: center; /* Center the text */
     padding: 16px 24px; /* Add some padding */
     text-decoration: none; /* Remove underline */
@@ -27,12 +29,13 @@
   
   /* Right-aligned link */
   .navbar a.right {
-    float: right; /* Float a link to the right */
+    float: inline-start; /* Float a link to the right */
+    left: 50%;
   }
   
   /* Change color on hover/mouse-over */
   .navbar a:hover {
-    background-color:#0181ca; /* Grey background color */
+    background-color:#01639c; /* Grey background color */
     color: black; /* Black text color */
   }
 
@@ -82,6 +85,16 @@
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
   }
+
+  .Center {
+    width:200px;
+    height:200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
 
   body {
     font-family: bahnschrift;
