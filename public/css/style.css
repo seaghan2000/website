@@ -1,5 +1,5 @@
 .header {
-    padding: 60px; /* some padding */
+    padding: 50px; /* some padding */
     text-align: center; /* center the text */
     background: #01395a; /* background */
     color: rgb(255, 255, 255); /* white text color */
@@ -16,7 +16,10 @@
 
   .navbar {
     overflow: hidden; /* Hide overflow */
-    background-color: rgb(24, 23, 23); /* Dark background color */
+    background-color: #000000; /* Dark background color */
+    border: 5px solid #01395a;
+    text-align: center;
+    display: block;
   }
   
   /* Style the navigation bar links */
@@ -40,7 +43,7 @@
   /* Change color on hover/mouse-over */
   .navbar a:hover {
     background-color:#01395a; /* Grey background color */
-    color: black; /* Black text color */
+    color: white; /* Black text color */
   }
 
   /* Ensure proper sizing */
