@@ -148,3 +148,9 @@ li {
  h1{
   color: #01395a;
  }
+
+ h2{
+  margin: 0px;
+  padding: 3px;
+  padding-bottom: 3px;
+ }
