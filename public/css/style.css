@@ -29,7 +29,7 @@
   .navbar ul {
     float: none; /* Make sure that the links stay side-by-side */
     top: 50%;
-    display: inline-block; /* Change the display to block, for responsive reasons (see below) */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
     text-align: center; /* Center the text */
     padding: 0px 0px; /* Add some padding */
   }
@@ -44,19 +44,20 @@
   .navbar ul li:hover {
     background-color:#01395a; /* Grey background color */
     color: white; /* Black text color */
+    padding: 10px 10px;
   }
 
   .navbar ul li{
     display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 10px 16px; /* Add some padding */
+    padding: 10px 10px; /* Add some padding */
   }
 
   .navbar ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 16px 22px; /* Add some padding */
+    padding: 28px 28px; /* Add some padding */
   }
 
 
