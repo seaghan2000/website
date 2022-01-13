@@ -23,6 +23,8 @@
     background-color: #000000; /* Dark background color */
     border: 0px solid #01395a;
     text-align: center;
+    padding: 0px 0px;
+    margin: 0px;
   }
   
   /* Style the navigation bar links */
@@ -32,6 +34,7 @@
     display: block; /* Change the display to block, for responsive reasons (see below) */
     text-align: center; /* Center the text */
     padding: 0px 0px; /* Add some padding */
+    margin: 0px;
   }
   
   /* Right-aligned link
@@ -77,6 +80,20 @@
   .side {
     flex: 25%; /* Set the width of the sidebar */
     background-color: rgb(143, 143, 143); /* Grey background color */
+    padding: 20px; /* Some padding */
+    border: 10px solid #01395a;
+  }
+
+  .sideHalf{
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: rgb(143, 143, 143); /* Grey background color */
+    padding: 20px; /* Some padding */
+    border: 10px solid #01395a;
+  }
+
+  .mainHalf{
+    flex: 50%; /* Set the width of the main content */
+    background-color: #dfdfdf; /* background color */
     padding: 20px; /* Some padding */
     border: 10px solid #01395a;
   }
