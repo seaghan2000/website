@@ -21,34 +21,44 @@
   .navbar {
     overflow: hidden; /* Hide overflow */
     background-color: #000000; /* Dark background color */
-    border: 10px solid #01395a;
+    border: 0px solid #01395a;
     text-align: center;
-    display: block;
   }
   
   /* Style the navigation bar links */
-  .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
+  .navbar ul {
+    float: none; /* Make sure that the links stay side-by-side */
     top: 50%;
-    left: 50%;
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: rgb(255, 255, 255); /* White text color */
+    display: inline-block; /* Change the display to block, for responsive reasons (see below) */
     text-align: center; /* Center the text */
-    padding: 16px 24px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    padding: 0px 0px; /* Add some padding */
   }
   
-  /* Right-aligned link */
-  .navbar a.right {
-    float: inline-start; /* Float a link to the right */
+  /* Right-aligned link
+  .navbar ul.right {
+    float: inline-start;
     left: 50%;
-  }
+  }*/
   
   /* Change color on hover/mouse-over */
-  .navbar a:hover {
+  .navbar ul li:hover {
     background-color:#01395a; /* Grey background color */
     color: white; /* Black text color */
   }
+
+  .navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 16px; /* Add some padding */
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 22px; /* Add some padding */
+  }
+
 
   /* Ensure proper sizing */
 * {
@@ -65,7 +75,7 @@
   /* Sidebar/left column */
   .side {
     flex: 25%; /* Set the width of the sidebar */
-    background-color: rgb(129, 128, 128); /* Grey background color */
+    background-color: rgb(143, 143, 143); /* Grey background color */
     padding: 20px; /* Some padding */
     border: 10px solid #01395a;
   }
