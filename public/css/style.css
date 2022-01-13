@@ -1,9 +1,13 @@
 .header {
-    padding: 50px; /* some padding */
+    padding: 45px; /* some padding */
     text-align: center; /* center the text */
     background: #01395a; /* background */
-    color: rgb(255, 255, 255); /* white text color */
+    color: white; /* white text color */
     margin:0px;
+  }
+
+  .header h1{
+    color: white;
   }
   
   /* Increase the font size of the <h1> element */
@@ -17,7 +21,7 @@
   .navbar {
     overflow: hidden; /* Hide overflow */
     background-color: #000000; /* Dark background color */
-    border: 5px solid #01395a;
+    border: 10px solid #01395a;
     text-align: center;
     display: block;
   }
@@ -60,18 +64,33 @@
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: white; /* Grey background color */
+    flex: 25%; /* Set the width of the sidebar */
+    background-color: rgb(129, 128, 128); /* Grey background color */
     padding: 20px; /* Some padding */
-    border: 5px solid #01395a;
+    border: 10px solid #01395a;
+  }
+
+    /* Center a image */
+  .centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
   /* Main column */
   .main {
-    flex: 70%; /* Set the width of the main content */
+    flex: 75%; /* Set the width of the main content */
     background-color: #dfdfdf; /* background color */
     padding: 20px; /* Some padding */
-    border: 5px solid #01395a;
+    border: 10px solid #01395a;
   }
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -96,6 +115,10 @@
     color: rgb(255, 255, 255);
   }
 
+  .footer h1{
+    color: rgb(255, 255, 255);
+  }
+
 
   body {
     font-family: bahnschrift;
@@ -106,7 +129,7 @@ ul {
 }
 
 li {
-    list-style: circle;
+    list-style: disc;
   }
   
   .list {
@@ -116,3 +139,12 @@ li {
   #msg {
     font-family: monospace;
   }
+
+  p {
+    margin: 0px;
+    padding: 3px;
+ }
+
+ h1{
+  color: #01395a;
+ }
