@@ -78,24 +78,37 @@
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 25%; /* Set the width of the sidebar */
+    flex: 20%; /* Set the width of the sidebar */
     background-color: rgb(143, 143, 143); /* Grey background color */
     padding: 20px; /* Some padding */
-    border: 10px solid #01395a;
+    border: 30px solid #01395a;
+    border-bottom: hidden;
+    border-top: hidden;
   }
 
-  .sideHalf{
-    flex: 50%; /* Set the width of the sidebar */
-    background-color: rgb(143, 143, 143); /* Grey background color */
-    padding: 20px; /* Some padding */
-    border: 10px solid #01395a;
-  }
-
-  .mainHalf{
-    flex: 50%; /* Set the width of the main content */
+  .main {
+    flex: 60%; /* Set the width of the main content */
     background-color: #dfdfdf; /* background color */
     padding: 20px; /* Some padding */
+    border: 30px solid #01395a;
+    border-bottom: hidden;
+    border-top: hidden;
+  }
+
+  .sideP{
+    flex: 60%; /* Set the width of the sidebar */
+    background-color: #dfdfdf; /* Grey background color */
+    padding: 20px; /* Some padding */
     border: 10px solid #01395a;
+    border-right: 20px solid #01395a;
+  }
+
+  .mainP{
+    flex: 20%; /* Set the width of the main content */
+    background-color: rgb(143, 143, 143); /* background color */
+    padding: 20px; /* Some padding */
+    border: 10px solid #01395a;
+    border-left: 20px solid #01395a;
   }
 
     /* Center a image */
@@ -113,13 +126,6 @@
     width: 50%;
   }
   
-  /* Main column */
-  .main {
-    flex: 75%; /* Set the width of the main content */
-    background-color: #dfdfdf; /* background color */
-    padding: 20px; /* Some padding */
-    border: 10px solid #01395a;
-  }
 
   .footer {
     padding: 5px; /* Some padding */
@@ -134,15 +140,16 @@
 
 
   body {
-    font-family: bahnschrift;
+    font-family: Segoe UI,sans-serif;
 }
 
 ul {
-    font-family: bahnschrift;
+    font-family: Segoe UI,sans-serif;
 }
 
 li {
     list-style: disc;
+    text-decoration: none;
   }
   
   .list {
