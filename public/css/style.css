@@ -104,19 +104,25 @@
 
   .sideP{
     flex: 60%; /* Set the width of the sidebar */
-    background-color: #dfdfdf; /* Grey background color */
-    padding: 20px; /* Some padding */
+    background-color: white; /* Grey background color */
+    padding: 30px; /* Some padding */
+    padding-top: 20px;
     border: 30px solid #01395a;
     border-top: hidden;
   }
 
   .mainP{
     flex: 20%; /* Set the width of the main content */
-    background-color: rgb(143, 143, 143); /* background color */
-    padding: 20px; /* Some padding */
-    border: 30px solid #01395a;
+    background-color: #01395a; /* background color */
+    padding: 30px; /* Some padding */
+    border: 30px solid white;
     border-right: hidden;
     border-top: hidden;
+    color: white;
+  }
+
+  .mainP h1{
+    color: white;
   }
 
     /* Center a image */
