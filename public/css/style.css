@@ -79,16 +79,22 @@
   /* Sidebar/left column */
   .side {
     flex: 20%; /* Set the width of the sidebar */
-    background-color: rgb(143, 143, 143); /* Grey background color */
-    padding: 20px; /* Some padding */
-    border: 30px solid #01395a;
-    border-bottom: hidden;
-    border-top: hidden;
+    background-color: #01395a; /* Grey background color */
+    padding: 15px; /* Some padding */
+    border: 30px solid white; /*rgb(143, 143, 143)*/
+    border-bottom: #01395a;
+    border-top: #01395a;
+    color: white;
   }
+
+  .side h1{
+    color: white;
+  }
+
 
   .main {
     flex: 60%; /* Set the width of the main content */
-    background-color: #dfdfdf; /* background color */
+    background-color: white; /* background color */
     padding: 20px; /* Some padding */
     border: 30px solid #01395a;
     border-bottom: hidden;
@@ -133,6 +139,9 @@
     text-align: center; /* Center text*/
     background: #01395a; /*background */
     color: rgb(255, 255, 255);
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .footer h1{
