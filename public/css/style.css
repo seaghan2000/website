@@ -99,16 +99,17 @@
     flex: 60%; /* Set the width of the sidebar */
     background-color: #dfdfdf; /* Grey background color */
     padding: 20px; /* Some padding */
-    border: 10px solid #01395a;
-    border-right: 20px solid #01395a;
+    border: 30px solid #01395a;
+    border-top: hidden;
   }
 
   .mainP{
     flex: 20%; /* Set the width of the main content */
     background-color: rgb(143, 143, 143); /* background color */
     padding: 20px; /* Some padding */
-    border: 10px solid #01395a;
-    border-left: 20px solid #01395a;
+    border: 30px solid #01395a;
+    border-right: hidden;
+    border-top: hidden;
   }
 
     /* Center a image */
