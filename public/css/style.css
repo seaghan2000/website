@@ -1,52 +1,43 @@
+/*Header for top of page*/
 .header {
-    padding: 30px; /* some padding */
-    text-align: center; /* center the text */
-    background: #01395a; /* background */
-    color: white; /* white text color */
+    padding: 30px;
+    text-align: center; 
+    background: #01395a; 
+    color: white; 
     margin:0px;
   }
-
-  .header h1{
-    color: white;
-  }
   
-  /* Increase the font size of the <h1> element */
   .header h1 {
     font-size: 40px;
     top: 50%;
     text-align: center;
     vertical-align: middle;
+    color: white;
   }
 
+  /*Simple navbar for traversing views*/
   .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color: #000000; /* Dark background color */
+    overflow: hidden; 
+    background-color: #000000; 
     border: 0px solid #01395a;
     text-align: center;
     padding: 0px 0px;
     margin: 0px;
   }
   
-  /* Style the navigation bar links */
   .navbar ul {
-    float: none; /* Make sure that the links stay side-by-side */
+    float: none; 
     top: 50%;
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    text-align: center; /* Center the text */
-    padding: 0px 0px; /* Add some padding */
+    display: block; 
+    text-align: center; 
+    padding: 0px 0px; 
     margin: 0px;
   }
   
-  /* Right-aligned link
-  .navbar ul.right {
-    float: inline-start;
-    left: 50%;
-  }*/
-  
-  /* Change color on hover/mouse-over */
+  /* Hover element for interactive website */
   .navbar ul li:hover {
-    background-color:#01395a; /* Grey background color */
-    color: white; /* Black text color */
+    background-color:#01395a; 
+    color: white; 
     padding: 10px 10px;
   }
 
@@ -54,35 +45,34 @@
     display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 10px 10px; /* Add some padding */
+    padding: 10px 10px; 
     font-size: 16pt;
   }
 
   .navbar ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 28px 28px; /* Add some padding */
+    padding: 28px 28px; 
   }
 
 
-  /* Ensure proper sizing */
+/*Border box as base style*/
 * {
     box-sizing: border-box;
   }
   
-  /* Column container */
+  /*Row comprised of two columns*/
   .row {
     display: flex;
     flex-wrap: wrap;
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
+  /* Create two  columns that sits next to each other */
   .side {
-    flex: 20%; /* Set the width of the sidebar */
-    background-color: #01395a; /* Grey background color */
-    padding: 15px; /* Some padding */
-    border: 30px solid white; /*rgb(143, 143, 143)*/
+    flex: 20%; 
+    background-color: #01395a; 
+    padding: 15px; 
+    border: 30px solid white; 
     border-bottom: #01395a;
     border-top: #01395a;
     color: white;
@@ -94,27 +84,28 @@
 
 
   .main {
-    flex: 60%; /* Set the width of the main content */
-    background-color: white; /* background color */
-    padding: 20px; /* Some padding */
+    flex: 60%; 
+    background-color: white; 
+    padding: 20px; 
     border: 30px solid #01395a;
     border-bottom: hidden;
     border-top: hidden;
   }
 
+  /*Columns for project page are slightly different*/
   .sideP{
-    flex: 60%; /* Set the width of the sidebar */
-    background-color: white; /* Grey background color */
-    padding: 30px; /* Some padding */
+    flex: 60%; 
+    background-color: white; 
+    padding: 30px; 
     padding-top: 20px;
     border: 30px solid #01395a;
     border-top: hidden;
   }
 
   .mainP{
-    flex: 20%; /* Set the width of the main content */
-    background-color: #01395a; /* background color */
-    padding: 30px; /* Some padding */
+    flex: 20%; 
+    background-color: #01395a; 
+    padding: 30px; 
     border: 30px solid white;
     border-right: hidden;
     border-top: hidden;
@@ -133,6 +124,7 @@
     width: 50%;
   }
 
+ /* Center a image */
   .center {
     display: block;
     margin-left: auto;
@@ -140,11 +132,11 @@
     width: 50%;
   }
   
-
+  /*  Footer or a spacer */
   .footer {
-    padding: 35px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #01395a; /*background */
+    padding: 35px; 
+    text-align: center; 
+    background: #01395a; 
     color: rgb(255, 255, 255);
     margin: 30px;
     margin-top: 0px;
@@ -155,15 +147,17 @@
     color: rgb(255, 255, 255);
   }
 
-
+ /* Font for body */
   body {
     font-family: Segoe UI,sans-serif;
 }
 
+/* List font no longer different */
 ul {
     font-family: Segoe UI,sans-serif;
 }
 
+/* list bullet points*/
 li {
     list-style: disc;
     text-decoration: none;
@@ -182,10 +176,12 @@ li {
     padding: 3px;
  }
 
+  /*Header is blue color*/
  h1{
   color: #01395a;
  }
 
+ /* Manage sub header spacing*/
  h2{
   margin: 0px;
   padding: 3px;
